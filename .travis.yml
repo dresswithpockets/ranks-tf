@@ -10,17 +10,6 @@ env:
 addons:  
   apt:
     packages:
-    - libcurl4-openssl-dev
-    - libicu-dev
-    - libssl-dev
-    - libunwind8
-    - liblttng-ust0
-    - libcurl3
-    - libssl1.0.0
-    - libuuid1
-    - libkrb5-3
-    - zlib1g
-    - libicu52
     - doxygen
     - doxygen-doc
     - doxygen-latex
