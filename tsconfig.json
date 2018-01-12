@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es2015",
+        "outDir": "./wwwroot/js/",
+        "module": "commonjs",
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "wwwroot",
+        "node_modules"
+    ]
+}
