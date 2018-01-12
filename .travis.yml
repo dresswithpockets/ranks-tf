@@ -28,3 +28,5 @@ install:
   - npm install
 script:
   - gulp
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "stable" ]; then git push heroku stable:master
