@@ -24,6 +24,9 @@ branches:
     - develop
     - stable
     - master
+cache:
+  directories:
+    - "node_modules"
 before_install:
   - npm install -g gulp-cli
 install:
