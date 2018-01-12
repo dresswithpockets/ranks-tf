@@ -1,6 +1,6 @@
 # ranks-tf
 
-<div style="text-align:center">[![Build Status](https://travis-ci.org/phxvyper/ranks-tf.svg?branch=develop)](https://travis-ci.org/phxvyper/ranks-tf) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b9b9f7b0b6134b4ea7972d81b1ae36d6)](https://www.codacy.com/app/phxvyper/ranks-tf?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=phxvyper/ranks-tf&amp;utm_campaign=Badge_Grade)</div>
+[![Build Status](https://travis-ci.org/phxvyper/ranks-tf.svg?branch=develop)](https://travis-ci.org/phxvyper/ranks-tf) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b9b9f7b0b6134b4ea7972d81b1ae36d6)](https://www.codacy.com/app/phxvyper/ranks-tf?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=phxvyper/ranks-tf&amp;utm_campaign=Badge_Grade)
 
 Please read specification.md for more information about contribution and development guidelines.
 
