@@ -69,7 +69,7 @@ The following are the basic gulp commands we've set up for developing on this pr
 >
 > Transpiles SCSS in `src/sass/` to CSS in `wwwroot/css/`.
 >
-> Builds the WiseDotNet solution using MSBuild and the .NET Core `dotnet` command line utility.
+> Builds the RanksTF solution using MSBuild and the .NET Core `dotnet` command line utility.
 
 ### gulp test
 > Uses the builtin `dotnet test` command line utility to run xUnit tests across our test projects - if any exist.
