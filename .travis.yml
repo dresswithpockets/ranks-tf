@@ -1,0 +1,32 @@
+language: csharp
+mono: none
+dotnet: 2.0.0
+node_js:
+  - "node"
+sudo: required
+dist: trusty
+env:
+  - CLI_VERSION=latest
+addons:  
+  apt:
+    packages:
+    - doxygen
+    - doxygen-doc
+    - doxygen-latex
+    - doxygen-gui
+    - graphviz
+branches:
+  only:
+    - develop
+    - stable
+    - master
+cache:
+  directories:
+    - "node_modules"
+install:
+  - npm install -g gulp-cli
+  - npm install
+script:
+  - gulp
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "stable" ]; then git push heroku stable:master
